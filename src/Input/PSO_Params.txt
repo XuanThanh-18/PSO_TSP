@@ -1,0 +1,6 @@
+maximumIterations : 30
+maximumParticles : 40
+c1 : 2.0
+c2 : 2.0
+low : 0.0
+hight : 1.0
