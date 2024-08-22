@@ -19,4 +19,9 @@ public class Location {
     public void updateLocation(ArrayList<Double> update) {
         this.locations.addAll(update);
     }
+
+    @Override
+    public String toString() {
+        return  locations +" ";
+    }
 }

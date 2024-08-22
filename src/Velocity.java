@@ -19,4 +19,11 @@ public class Velocity {
     public void updateVelocity(ArrayList<Double> update) {
         this.velocityDimensions.addAll(update);
     }
+
+    @Override
+    public String toString() {
+        return "Velocity{" +
+                "velocityDimensions=" + velocityDimensions +
+                '}';
+    }
 }

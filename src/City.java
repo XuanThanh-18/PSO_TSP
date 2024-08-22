@@ -20,4 +20,13 @@ public class City {
     public double distanceBetweenTwoCities(City other) {
         return Math.sqrt(Math.pow(this.latitude - other.latitude, 2.0) + Math.pow(this.longitude - other.longitude, 2.0));
     }
+
+    @Override
+    public String toString() {
+        return
+                //"latitude=" + latitude +
+                //", longitude=" + longitude +
+                  name  +
+                ' ';
+    }
 }

@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38890a17-02c2-4969-9a3c-ee898750850d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSOptimization_TSP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Input/Input.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Input/PSO_Params.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Output/results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSOptimization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Velocity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/particle.java" afterDir="false" />
+    <list default="true" id="38890a17-02c2-4969-9a3c-ee898750850d" name="Changes" comment="XT_PSO_TSP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input/PSO_Params.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/PSO_Params.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Output/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Output/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PSOptimization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PSOptimization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Velocity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Velocity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/particle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +28,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jqFbPSBVK7GH8bfzhbmvM6y6tr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,13 +51,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Xuan_Thanh/Toi_Uu/PSOptimization_TSP/src",
+    "last_opened_file_path": "D:/Xuan_Thanh/Toi_Uu/PSO_TSP_Problem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,6 +78,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,10 +94,36 @@
       <option name="presentableId" value="Default" />
       <updated>1722106772700</updated>
       <workItem from="1722106773749" duration="1017000" />
+      <workItem from="1722107817085" duration="1642000" />
+      <workItem from="1722236262644" duration="48000" />
+      <workItem from="1722257989901" duration="9581000" />
+      <workItem from="1722304842774" duration="1837000" />
+      <workItem from="1722323242664" duration="4164000" />
+      <workItem from="1722872703987" duration="5295000" />
+      <workItem from="1723571276851" duration="2024000" />
+      <workItem from="1723607825192" duration="5374000" />
+      <workItem from="1723730246058" duration="596000" />
+      <workItem from="1723784397336" duration="4688000" />
+      <workItem from="1723825240043" duration="2983000" />
+      <workItem from="1723920630630" duration="1665000" />
+      <workItem from="1724316515471" duration="1562000" />
     </task>
+    <task id="LOCAL-00001" summary="XT_PSO_TSP">
+      <option name="closed" value="true" />
+      <created>1722107964658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722107964658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="XT_PSO_TSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="XT_PSO_TSP" />
   </component>
 </project>

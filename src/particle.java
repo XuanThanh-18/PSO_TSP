@@ -35,7 +35,7 @@ public class particle {
 
     }
 
-    public Route getNeighborhoodSolution(Route aRoute) {
+    public Route getNeighborhoodSolution(Route aRoute) { // tao ra route mới băng cách hoan doi 2 vi tri ngua nhien
         int random1 = 0;
 
         int random2;
@@ -105,5 +105,16 @@ public class particle {
 
     public void setLocationPBest(Location locationPBest) {
         this.locationPBest = locationPBest;
+    }
+
+    @Override
+    public String toString() {
+        return "particle{" +
+                "route=" + route + "\t Value: "+route.getFullRouteDistance()+
+                "\n, location=" + location +
+                "\n, velocity=" + velocity +
+                "\n, pBest=" + pBest +
+                "\n, locationPBest=" + locationPBest +
+                '}';
     }
 }

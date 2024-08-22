@@ -50,4 +50,9 @@ public class Route {
         str = str + " }";
         return str;
     }
+
+    @Override
+    public String toString() {
+        return  cities +" ";
+    }
 }

@@ -26,7 +26,7 @@ public class PSOptimization {
         System.out.println(route.getRoute());
         System.out.println("\n");
         System.out.println("========================= Initializing Particles ... =======================\n");
-
+        this.particlesList.add(new particle(new Route(route)));
         for(int i = 0; i < maximumParticles; ++i) {
             Collections.shuffle(route.getCities());
             this.particlesList.add(new particle(new Route(route)));
@@ -37,6 +37,10 @@ public class PSOptimization {
         this.initilizeLocations();
         this.sort();
         this.gBest = new Route(((particle)this.particlesList.get(0)).getpBest());
+        for(int i = 0; i < maximumParticles; ++i){
+            System.out.println("particle "+ i +"\n"+ this.particlesList.get(i).toString());
+            System.out.println("\n");
+        }
         System.out.println("======= " + maximumParticles + " Particles are Initialized Uniformly ! ============");
         System.out.println();
     }
@@ -94,12 +98,14 @@ public class PSOptimization {
 
         for(int counter = 0; counter < maximumIterations; ++counter) {
             int i;
+            // cai thien pBest
             for(i = 0; i < this.particlesList.size() - 1; ++i) {
                 ((particle)this.particlesList.get(i)).getBest();
             }
 
-            this.printParticles();
+            this.printParticles(); // thong tin particale sau moo vong lap
             this.sort();
+            // cap nhat gBest
             if (((particle)this.particlesList.get(0)).getpBest().getFullRouteDistance() < this.gBest.getFullRouteDistance()) {
                 this.gBest = new Route(((particle)this.particlesList.get(0)).getpBest());
             }
